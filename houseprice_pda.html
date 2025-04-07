@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>House Price Prediction Blog</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f4f8fb;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    header {
+      background: #4b79a1;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .authors {
+      background-color: #d9eaf7;
+      padding: 15px;
+      border-left: 5px solid #4b79a1;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    .content h3, .content h4 {
+      color: #4b79a1;
+      margin-top: 20px;
+    }
+
+    .content ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .content ul li {
+      background: #e8f1f9;
+      margin: 8px 0;
+      padding: 10px;
+      border-left: 4px solid #4b79a1;
+      border-radius: 6px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 10px;
+      background: #e0e0e0;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Predictive Analytics</h1>
+    <h2>House Price Prediction</h2>
+  </header>
+
+  <section class="authors">
+    <p><strong>By:</strong> Madhana Gopal N S, Shrinath Venkatesh, Ashif Mohamed T, Mohamed Sameer S</p>
+  </section>
+
+  <section class="content">
+    <h3>Problem Description</h3>
+    <p>The problem is about predicting the house prices for people looking for homes in Bengaluru city.
+       We have analyzed past data using a <strong>Linear Regression Model</strong>.</p>
+
+    <h4>Parameters Used to Predict House Price:</h4>
+    <ul>
+      <li>📍 Location</li>
+      <li>📏 Size of the House (Square Feet)</li>
+      <li>🛏️ Number of Bedrooms (BHK)</li>
+      <li>🛁 Number of Bathrooms</li>
+    </ul>
+
+    <h3>ML Model</h3>
+    <ul>
+      <li>Performed Label Encoding to convert categorical values into numeric format.</li>
+      <li>Split the data into training and testing sets (Test size: 20%).</li>
+      <li><strong>Model Used:</strong> Multiple Linear Regression</li>
+      <li><strong>r² Score:</strong> 0.73</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 House Price Predictor Team</p>
+  </footer>
+</body>
+</html>
